@@ -1,9 +1,7 @@
 {
   "name": "typescript-template",
-  "version": "1.0.0",
-  "description": "",
-  "license": "MIT",
-  "author": "",
+  "version": "0.0.0",
+  "private": true,
   "type": "module",
   "scripts": {
     "build": "npx tsc --noEmit && npx esbuild ./src/main.ts --bundle --outfile=./dist/out.js",
