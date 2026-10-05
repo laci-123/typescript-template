@@ -1,0 +1,24 @@
+html {
+  height: 100%;
+}
+body {
+  background: linear-gradient(#d0e0ff, white);
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+  background: white;
+  padding: 2em;
+}
+
+#root div {
+  display: flex;
+  justify-content: space-between;
+  gap: 1em;
+}
