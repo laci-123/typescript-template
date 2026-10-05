@@ -1,4 +1,4 @@
-import { add_two_numbers } from "./app.ts"
+import { add_two_numbers } from "./business_logic.ts"
 
 
 const input_1 = document.getElementById("input_1")! as HTMLInputElement;

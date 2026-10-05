@@ -1,4 +1,4 @@
-import { add_two_numbers } from "./app.ts";
+import { add_two_numbers } from "./business_logic.ts";
 import { test, expect } from "vitest";
 
 test("addition works", () => {
